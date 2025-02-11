@@ -3,6 +3,9 @@ const { Engine, Runner, Bodies, Composite, Constraint, Mouse, MouseConstraint, E
 const canvasWidth = 960;
 const canvasHeight = 960;
 
+
+console.log("NewTime.js loaded!");
+
 let engine, world, pendulum, constraint, mouseConstraint;
 const baseBallRadius = 100;
 let leftBorder, rightBorder;
